@@ -7,3 +7,6 @@ indicacao = int(input("Se tiver incacao digite True caso contrario False " ))
 
 if idade <= 18 :
     print ("rejeitado")
+
+if experiencia = False 
+    print (`)
