@@ -1,12 +1,14 @@
 idade = int(input("Digite sua idade "))
-experiencia = int(input("Digite True se tiver experiencia e False caso contrario "))
-AntecedenciasCriminais = int(input("Digite True se voce tem antecedencias criminais e False se nao "))
-experiencia = int(input("digite True caso tenha experiencia e False se nao" ))
-EnsinoSuperiorCompleto = int(input("Digite True se tiver ensino superior completo e False se nao  "))
-indicacao = int(input("Se tiver incacao digite True caso contrario False " ))
+experiencia = input("Digite True se tiver experiencia e False caso contrario ")
+AntecedenciasCriminais = input(
+    "Digite True se voce tem antecedencias criminais e False se nao ")
+EnsinoSuperiorCompleto = input(
+    "Digite True se tiver ensino superior completo e False se nao  ")
+indicacao = (input("Se tiver incacao digite True caso contrario False "))
 
-if idade <= 18 :
-    print ("rejeitado")
-
-if experiencia = False 
-    print (`)
+if idade >= 18 and AntecedenciasCriminais == "False" and experiencia == "True":
+    print("Contratada")
+elif experiencia == "False" and (indicacao == "True" or EnsinoSuperiorCompleto == "True") and AntecedenciasCriminais == "False":
+    print("Vai pra entrevista")
+else:
+    print("Aura insuficiente por favor dirija se ate a saida")
